@@ -5,57 +5,12 @@ import User from "../models/user.model.js";
 config();
 
 const seedUsers = [
-  // Female Users
-  {
-    email: "naina@example.com",
-    fullName: "Naina",
-    password: "123456",
-    profilePic: "https://randomuser.me/api/portraits/women/1.jpg",
-  },
-  {
-    email: "ragini@example.com",
-    fullName: "Ragini",
-    password: "123456",
-    profilePic: "https://randomuser.me/api/portraits/women/2.jpg",
-  },
-  {
-    email: "vaishnavi@example.com",
-    fullName: "Vaishnavi",
-    password: "123456",
-    profilePic: "https://randomuser.me/api/portraits/women/3.jpg",
-  },
-  {
-    email: "diya@example.com",
-    fullName: "Diya",
-    password: "123456",
-    profilePic: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    email: "ishika@example.com",
-    fullName: "Ishika",
-    password: "123456",
-    profilePic: "https://randomuser.me/api/portraits/women/5.jpg",
-  },
-  {
-    email: "mouni@example.com",
-    fullName: "Mouni",
-    password: "123456",
-    profilePic: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-  {
-    email: "aish@example.com",
-    fullName: "Aish",
-    password: "123456",
-    profilePic: "https://randomuser.me/api/portraits/women/7.jpg",
-  },
   {
     email: "shrishti@example.com",
     fullName: "Shrishti",
     password: "123456",
     profilePic: "https://randomuser.me/api/portraits/women/8.jpg",
   },
-
-  // Male Users
   {
     email: "vasu@example.com",
     fullName: "Vasu",
